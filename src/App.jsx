@@ -1,13 +1,12 @@
-import React from 'react';
-import RegistrationForm from './Registration';
-import './Registration.css';
+import React from 'react'
+import Checklist from './checklist'
 
 function App() {
   return (
-    <div className="app">
-      <RegistrationForm />
+    <div>
+      <Checklist></Checklist>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
